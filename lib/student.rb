@@ -60,6 +60,7 @@ class Student
       SELECT * FROM students WHERE name = ?
     SQL
     found_student = DB[:conn].execute(sql, db)
+    binding.pry
     self.new_from_db(found_student)
   end
 
