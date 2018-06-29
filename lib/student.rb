@@ -52,8 +52,8 @@ class Student
   end
 
   def self.new_from_db(db)
-    self.new(db[0], [db[1], db[2])
-
+    new_student = self.new(db[0], [db[1], db[2])
+    new_student
   end
 
 end
