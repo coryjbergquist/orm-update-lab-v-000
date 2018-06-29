@@ -69,5 +69,3 @@ class Student
 
 
 end
-by-2.3.1/bin/rspec:23:in `load': /home/coryjbergquist/orm-update-lab-v-000/lib/student.rb:58: syntax error, unexpected ')', expe
-cting keyword_end (SyntaxEr
