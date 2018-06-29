@@ -54,8 +54,8 @@ class Student
   def self.new_from_db(db)
     new_student = self.new
     new_student.id = [0]
-    new_student.name = db[1] 
-    new_student.grade = db[2])
+    new_student.name = db[1]
+    new_student.grade = db[2]
   end
 
   def self.find_by_name(db)
@@ -69,3 +69,5 @@ class Student
 
 
 end
+by-2.3.1/bin/rspec:23:in `load': /home/coryjbergquist/orm-update-lab-v-000/lib/student.rb:58: syntax error, unexpected ')', expe
+cting keyword_end (SyntaxEr
