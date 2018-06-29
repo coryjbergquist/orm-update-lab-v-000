@@ -55,7 +55,7 @@ class Student
     self.new(db[0], db[1], db[2])
   end
 
-  def find_by_name(db)
+  def self.find_by_name(db)
     binding.pry
   
   end
