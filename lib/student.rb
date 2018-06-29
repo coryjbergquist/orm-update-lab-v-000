@@ -57,7 +57,7 @@ class Student
 
   def self.find_by_name(db)
     binding.pry
-  
+
   end
 
 
