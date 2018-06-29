@@ -57,7 +57,3 @@ class Student
   end
 
 end
-
-
-bin/rspec:23:in `load': /home/coryjbergquist/orm-update-lab-v-000/lib/student.rb:55: syntax error, unexpected ')', expe
-cting ']' (SyntaxError)
