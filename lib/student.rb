@@ -61,7 +61,6 @@ class Student
     SQL
     found_student = DB[:conn].execute(sql, db)
     self.new_from_db(found_student)
-
   end
 
 
