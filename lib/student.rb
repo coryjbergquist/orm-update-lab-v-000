@@ -52,7 +52,7 @@ class Student
   end
 
   def self.new_from_db(db)
-    binding.pry
+    self.new(db[0], [db[1], db[2])
 
   end
 
