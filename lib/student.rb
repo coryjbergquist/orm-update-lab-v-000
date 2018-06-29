@@ -52,8 +52,12 @@ class Student
   end
 
   def self.new_from_db(db)
-    new_student = self.new(db[0], [db[1], db[2])
+    new_student = self.new(db[0], db[1], db[2])
     new_student
   end
 
 end
+
+
+bin/rspec:23:in `load': /home/coryjbergquist/orm-update-lab-v-000/lib/student.rb:55: syntax error, unexpected ')', expe
+cting ']' (SyntaxError)
