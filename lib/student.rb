@@ -59,6 +59,6 @@ class Student
     binding.pry
     self.new
   end
-  
+
 
 end
